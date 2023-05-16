@@ -1,5 +1,5 @@
 import streamlit as st
-import matplotlib.pyploy as plt
+import matplotlib.pyplot as plt
 import numpy as np
 x = st.slider('Select a value')
 st.write(x, 'squared is', x * x)
