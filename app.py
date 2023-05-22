@@ -22,7 +22,7 @@ st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
 st.slider('Pick a number',0,50)
                                  
 st.number_input('Pick a number', 0, 10)
-st.txt_input('Email address')
+st.text_input('Email address')
 st.date_input('Traveling date')
 st.time_input('School time')
 st.tet_area('Description')
